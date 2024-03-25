@@ -102,7 +102,9 @@ export default function SideBar() {
           {/* ============Upload Record Button ========== */}
           <section className="border-t border-slate pt-6 px-4 mt-28 hidden md:block">
             <div className="bg-accent dark:bg-accent rounded-lg text-foreground flex items-center justify-center gap-4 p-2  cursor-pointer">
+            <Link href="/" className="font-bold ">
               <p>Sign out</p>
+              </Link>
             </div>
           </section>
         </div>
