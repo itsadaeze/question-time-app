@@ -57,15 +57,7 @@ export default function LoginPage() {
       <div>
         <div className="relative z-10 flex flex-col mb-40 justify-center max-w-[650px] w-full mx-auto">
           <p className="mb-3 text-white text-[22px] flex pb-1 font-thin leading-normal text-left md:text-left font-sans:Inter ">
-            Adaeze{" "}
-            <span className="font-bold flex">
-              {" "}
-              <ChevronRightIcon
-                className="h-9 w-4 text-[28px] font-[1100]"
-                aria-hidden="true"
-              />{" "}
-              AUP
-            </span>
+           Email Address
           </p>
           <form
             onSubmit={handleSubmit(onSubmit)}
