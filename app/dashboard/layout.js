@@ -1,6 +1,6 @@
 import MobileNavbar from "../components/navbar/MobileNavbar";
 import SideBar from "../components/sidebar/Sidebar";
-import { ThemeProvider } from "../providers/theme-provider";
+import { ThemeProvider } from "../dashboard/providers/theme-provider";
 
 
 export const metadata = {
