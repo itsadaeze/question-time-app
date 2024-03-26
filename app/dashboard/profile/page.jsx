@@ -9,57 +9,16 @@ export default function Profile() {
             Hey I&apos;m Adaeze Ugwu <span>✌🏻</span>
           </p>
           <p className="text-foreground leading-8 ">
-            I&apos;m a Frontend developer who juggles building User Interfaces.
-            I mainly work with ReactJs, Next.js, Vue.js, but occasionally, I
-            like to play with Python.
+            I am  Frontend developer who juggles building User Interfaces.
+             I&apos;m all about creating interfaces that not only look good but also feel intuitive and engaging. My toolkit includes ReactJs, Next.js, and Vue.js, which I wield with finesse to breathe life into designs.
           </p>
           <p className=" mt-10 leading-8 ">
             When I&apos;m not working, I find peace in exploring the world and
-            unwinding through activities like skiing. Traveling and embracing
+            unwinding through activities like researching, Traveling and embracing
             the outdoors bring a perfect balance to my life, providing a
             refreshing break from the anomalies in business.
           </p>
-          <div className="md:flex space-y-4 md:space-y-0 gap-x-4 mt-10">
-            <div className="border border-accent-primary w-full p-6 rounded-lg flex items-center gap-x-2 ">
-              <Image
-                src="/81015448.jpeg"
-                alt="Adaeze profile Image"
-                width={50}
-                height={50}
-                priority
-                className="object-cover rounded-lg"
-              />{" "}
-              <div>
-                <p className="font-semibold text-sm">@github/itsadaeze</p>
-                <p className="text-sm text-muted-foreground">github</p>
-              </div>
-            </div>
-            <div className="border border-accent-primary w-full p-6 rounded-lg flex items-center gap-x-2">
-              <Image
-                src="/81015448.jpeg"
-                alt="Adaeze profile Image"
-                width={50}
-                height={50}
-                priority
-                className="object-cover rounded-lg"
-              />{" "}
-              <div>
-                <p className="font-semibold text-sm">@linkedin/itsadaeze</p>
-                <p className="text-sm text-muted-foreground">linkedin</p>
-              </div>
-            </div>
           </div>
-        </div>
-        <div>
-          <Image
-            src="/81015448.jpeg"
-            alt="Adaeze profile Image"
-            width={100}
-            height={100}
-            priority
-            className="object-cover w-full  h-[400px] rounded-3xl"
-          />{" "}
-        </div>
       </section>
     </main>
   );

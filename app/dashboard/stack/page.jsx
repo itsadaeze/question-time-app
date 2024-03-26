@@ -37,8 +37,8 @@ export default function Stack() {
               className="object-cover"
             />
             <div>
-              <p className="font-semibold">Next.js</p>
-              <p className="text-sm text-muted-foreground">Framework</p>
+              <p className="font-semibold">Figma</p>
+              {/* <p className="text-sm text-muted-foreground">Framework</p> */}
             </div>
           </div>
           <div className="h-fit flex gap-x-2 items-center">
@@ -66,7 +66,7 @@ export default function Stack() {
             />
             <div>
               <p className="font-semibold">Vs Code</p>
-              <p className="text-sm text-muted-foreground">Framework</p>
+              {/* <p className="text-sm text-muted-foreground">Framework</p> */}
             </div>
           </div>
           <div className="h-fit flex gap-x-2 items-center">
@@ -86,7 +86,7 @@ export default function Stack() {
 
           <div className="h-fit flex gap-x-2 items-center">
             <Image
-              src="/nextjs.webp"
+              src="/reactlogo.png"
               alt="nextjs image"
               width={60}
               height={60}
@@ -94,13 +94,13 @@ export default function Stack() {
               className="object-cover"
             />
             <div>
-              <p className="font-semibold">Next.js</p>
+              <p className="font-semibold">React.js</p>
               <p className="text-sm text-muted-foreground">Framework</p>
             </div>
           </div>
           <div className="h-fit flex gap-x-2 items-center">
             <Image
-              src="/nextjs.webp"
+              src="/javascript.jpeg"
               alt="nextjs image"
               width={60}
               height={60}
@@ -108,13 +108,27 @@ export default function Stack() {
               className="object-cover"
             />
             <div>
-              <p className="font-semibold">Next.js</p>
+              <p className="font-semibold">Javascript</p>
+              {/* <p className="text-sm text-muted-foreground">Framework</p> */}
+            </div>
+          </div>
+          <div className="h-fit flex gap-x-2 items-center">
+            <Image
+              src="/vuejs.png"
+              alt="nextjs image"
+              width={60}
+              height={60}
+              priority
+              className="object-cover"
+            />
+            <div>
+              <p className="font-semibold">Vue.js</p>
               <p className="text-sm text-muted-foreground">Framework</p>
             </div>
           </div>
           <div className="h-fit flex gap-x-2 items-center">
             <Image
-              src="/nextjs.webp"
+              src="/shadcn.png"
               alt="nextjs image"
               width={60}
               height={60}
@@ -122,15 +136,43 @@ export default function Stack() {
               className="object-cover"
             />
             <div>
-              <p className="font-semibold">Next.js</p>
-              <p className="text-sm text-muted-foreground">Framework</p>
+              <p className="font-semibold">shadcn</p>
+              {/* <p className="text-sm text-muted-foreground">Framework</p> */}
             </div>
+          </div>
+          <div className="h-fit flex gap-x-2 items-center">
+            <Image
+              src="/"
+              alt="reduxtoolkit"
+              width={60}
+              height={60}
+              priority
+              className="object-cover"
+            />
+            <div>
+              <p className="font-semibold">Redux toolkit</p>
+              {/* <p className="text-sm text-muted-foreground">Framework</p> */}
+            </div>
+            <div className="h-fit flex gap-x-2 items-center">
+            <Image
+              src="/gshadcn.pn"
+              alt="reactquery"
+              width={60}
+              height={60}
+              priority
+              className="object-cover"
+            />
+            <div>
+              <p className="font-semibold">React query</p>
+              {/* <p className="text-sm text-muted-foreground">Framework</p> */}
+            </div>
+          </div>
           </div>
         </div>
       </section>
 
       {/* ====PRODUCTIVITY TOOLS SECTION */}
-      <section className="h-fit border border-accent-primary mt-8 p-6">
+      {/* <section className="h-fit border border-accent-primary mt-8 p-6">
         <h3 className="mb-4 font-bold text-xl">Productivity</h3>
         <div className="justify-between gap-y-10 grid md:grid-cols-2 lg:grid-cols-3">
           <div className="h-fit flex gap-x-2 items-center">
@@ -204,8 +246,8 @@ export default function Stack() {
               <p className="text-sm text-muted-foreground">Ai</p>
             </div>
           </div>
-        </div>
-      </section>
+        </div> */}
+      {/* </section> */}
     </main>
   );
 }
