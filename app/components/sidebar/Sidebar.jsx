@@ -12,7 +12,8 @@ export default function SideBar() {
 
   return (
     <>
-      <section className="z-30 absolute xl:fixed w-[249px]">
+      <section className="relative hidden  md:z-30 md:block md:absolute xl:fixed w-[249px]">
+        
         <div className="md:border-r border-slate w-[260px] min-h-screen pt-10 md:fixed">
           <div className="justify-between px-3 pr-4 pb-6 hidden md:flex">
             <div className="flex gap-x-2">
@@ -102,9 +103,7 @@ export default function SideBar() {
           {/* ============Upload Record Button ========== */}
           <section className="border-t border-slate pt-6 px-4 mt-28 hidden md:block">
             <div className="bg-accent dark:bg-accent rounded-lg text-foreground flex items-center justify-center gap-4 p-2  cursor-pointer">
-            <Link href="/" className="font-bold ">
               <p>Sign out</p>
-              </Link>
             </div>
           </section>
         </div>
